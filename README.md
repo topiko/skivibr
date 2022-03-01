@@ -1,3 +1,5 @@
+### Codes to push mpu6050 acceleration data to serial of your computer through arduino.
+
 Get arduino ide and install Adfruit accel library (check the name from inports of mpu6050.ino)
 
 Fix correct usb device and baudrates etc in the readser.py.
@@ -9,5 +11,6 @@ where T is the data collection time. Note there (is a bug?) is some weird behavi
 After data collection you have file nameofrun.csv in your script folder. You can plot it using python plotacc.py nameofrun (T1 T2), where the optional T1 and T2 are the start and end for the fitting window of damped harmonic oscillator eq.. It will spit out the damping coeff. and frequency. 
 
 
+![acc](https://github.com/topiko/skivibr/blob/main/kelo.png)
 
 
